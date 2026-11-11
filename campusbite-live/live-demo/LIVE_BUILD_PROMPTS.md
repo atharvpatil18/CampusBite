@@ -22,7 +22,7 @@ Prepared by Sathish Kumar K., AI Educator
 ## Step 0: Setup before the session
 
 1. `npm install`
-2. Copy your `.env.local` into this folder (5 values: Gemini key, `GEMINI_MODEL=gemini-3.8-flash`, Supabase URL, Supabase secret key, passcode)
+2. Copy your `.env.local` into this folder (5 values: Gemini key, `GEMINI_MODEL=gemini-3.6-flash`, Supabase URL, Supabase secret key, passcode)
 3. In Supabase **SQL Editor**, run `seed/00_starter_example.sql`, then `seed/campusbite.sql`
 4. `npm run dev`, open `localhost:3000/api/health`, then log in and try "Which tasks are still open?"
 5. Keep the finished `campusbite-demo` app ready in another folder as a backup
